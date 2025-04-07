@@ -1,0 +1,393 @@
+{
+  "company" : {
+    "name" : "Tech Solutions Ltd",
+    "location" : {
+      "city" : "San Francisco",
+      "state" : "CA",
+      "country" : "USA"
+    },
+    "departments" : [ {
+      "id" : 1,
+      "name" : "Engineering",
+      "employees" : [ {
+        "id" : 100,
+        "name" : "Employee 100",
+        "role" : "Software Engineer",
+        "skills" : [ "Node.js" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "In Progress",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          } ]
+        } ]
+      }, {
+        "id" : 101,
+        "name" : "Employee 101",
+        "role" : "Software Engineer",
+        "skills" : [ "Node.js" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Pending",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : true
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : true
+          }, {
+            "taskId" : "T005",
+            "description" : "Task 5",
+            "completed" : false
+          } ]
+        } ]
+      }, {
+        "id" : 102,
+        "name" : "Employee 102",
+        "role" : "Marketing Manager",
+        "skills" : [ "Python", "Python" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P003",
+          "name" : "Project 3",
+          "status" : "In Progress",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          } ]
+        } ]
+      }, {
+        "id" : 103,
+        "name" : "Employee 103",
+        "role" : "QA Engineer",
+        "skills" : [ "SQL" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "Pending",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : true
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : true
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : 2,
+      "name" : "Marketing",
+      "employees" : [ {
+        "id" : 100,
+        "name" : "Employee 100",
+        "role" : "Software Engineer",
+        "skills" : [ "Selenium" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "In Progress",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : true
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          } ]
+        } ]
+      }, {
+        "id" : 101,
+        "name" : "Employee 101",
+        "role" : "Marketing Manager",
+        "skills" : [ "Selenium", "Selenium", "JavaScript" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : true
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : false
+          }, {
+            "taskId" : "T005",
+            "description" : "Task 5",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P003",
+          "name" : "Project 3",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : 3,
+      "name" : "HR",
+      "employees" : [ {
+        "id" : 100,
+        "name" : "Employee 100",
+        "role" : "QA Engineer",
+        "skills" : [ "SQL" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : false
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : false
+          }, {
+            "taskId" : "T005",
+            "description" : "Task 5",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "In Progress",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          } ]
+        }, {
+          "projectId" : "P003",
+          "name" : "Project 3",
+          "status" : "In Progress",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : false
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : false
+          } ]
+        } ]
+      }, {
+        "id" : 101,
+        "name" : "Employee 101",
+        "role" : "HR Specialist",
+        "skills" : [ "SQL", "JavaScript", "React" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          } ]
+        }, {
+          "projectId" : "P002",
+          "name" : "Project 2",
+          "status" : "Pending",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          } ]
+        }, {
+          "projectId" : "P003",
+          "name" : "Project 3",
+          "status" : "Completed",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : false
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : false
+          }, {
+            "taskId" : "T003",
+            "description" : "Task 3",
+            "completed" : true
+          }, {
+            "taskId" : "T004",
+            "description" : "Task 4",
+            "completed" : false
+          } ]
+        } ]
+      }, {
+        "id" : 102,
+        "name" : "Employee 102",
+        "role" : "Marketing Manager",
+        "skills" : [ "JavaScript", "React", "SQL" ],
+        "projects" : [ {
+          "projectId" : "P001",
+          "name" : "Project 1",
+          "status" : "Pending",
+          "tasks" : [ {
+            "taskId" : "T001",
+            "description" : "Task 1",
+            "completed" : true
+          }, {
+            "taskId" : "T002",
+            "description" : "Task 2",
+            "completed" : true
+          } ]
+        } ]
+      } ]
+    } ]
+  },
+  "metadata" : {
+    "version" : 1.2,
+    "source" : "internal"
+  }
+}

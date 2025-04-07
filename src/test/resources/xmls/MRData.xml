@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2017/circuits.xml" limit="30" offset="0" total="20">
+    <CircuitTable season="2017">
+        <Circuit circuitId="albert_park" url="http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit">
+            <CircuitName>Albert Park Grand Prix Circuit</CircuitName>
+            <Location lat="-37.8497" long="144.968">
+                <Locality>Melbourne</Locality>
+                <Country>Australia</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="americas" url="http://en.wikipedia.org/wiki/Circuit_of_the_Americas">
+            <CircuitName>Circuit of the Americas</CircuitName>
+            <Location lat="30.1328" long="-97.6411">
+                <Locality>Austin</Locality>
+                <Country>USA</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="bahrain" url="http://en.wikipedia.org/wiki/Bahrain_International_Circuit">
+            <CircuitName>Bahrain International Circuit</CircuitName>
+            <Location lat="26.0325" long="50.5106">
+                <Locality>Sakhir</Locality>
+                <Country>Bahrain</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="baku" url="http://en.wikipedia.org/wiki/Baku_City_Circuit">
+            <CircuitName>Baku City Circuit</CircuitName>
+            <Location lat="40.3725" long="49.8533">
+                <Locality>Baku</Locality>
+                <Country>Azerbaijan</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="catalunya" url="http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya">
+            <CircuitName>Circuit de Barcelona-Catalunya</CircuitName>
+            <Location lat="41.57" long="2.26111">
+                <Locality>Montmeló</Locality>
+                <Country>Spain</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="hungaroring" url="http://en.wikipedia.org/wiki/Hungaroring">
+            <CircuitName>Hungaroring</CircuitName>
+            <Location lat="47.5789" long="19.2486">
+                <Locality>Budapest</Locality>
+                <Country>Hungary</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="interlagos" url="http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace">
+            <CircuitName>Autódromo José Carlos Pace</CircuitName>
+            <Location lat="-23.7036" long="-46.6997">
+                <Locality>São Paulo</Locality>
+                <Country>Brazil</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="marina_bay" url="http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit">
+            <CircuitName>Marina Bay Street Circuit</CircuitName>
+            <Location lat="1.2914" long="103.864">
+                <Locality>Marina Bay</Locality>
+                <Country>Singapore</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="monaco" url="http://en.wikipedia.org/wiki/Circuit_de_Monaco">
+            <CircuitName>Circuit de Monaco</CircuitName>
+            <Location lat="43.7347" long="7.42056">
+                <Locality>Monte-Carlo</Locality>
+                <Country>Monaco</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="monza" url="http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza">
+            <CircuitName>Autodromo Nazionale di Monza</CircuitName>
+            <Location lat="45.6156" long="9.28111">
+                <Locality>Monza</Locality>
+                <Country>Italy</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="red_bull_ring" url="http://en.wikipedia.org/wiki/Red_Bull_Ring">
+            <CircuitName>Red Bull Ring</CircuitName>
+            <Location lat="47.2197" long="14.7647">
+                <Locality>Spielberg</Locality>
+                <Country>Austria</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="rodriguez" url="http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez">
+            <CircuitName>Autódromo Hermanos Rodríguez</CircuitName>
+            <Location lat="19.4042" long="-99.0907">
+                <Locality>Mexico City</Locality>
+                <Country>Mexico</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="sepang" url="http://en.wikipedia.org/wiki/Sepang_International_Circuit">
+            <CircuitName>Sepang International Circuit</CircuitName>
+            <Location lat="2.76083" long="101.738">
+                <Locality>Kuala Lumpur</Locality>
+                <Country>Malaysia</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="shanghai" url="http://en.wikipedia.org/wiki/Shanghai_International_Circuit">
+            <CircuitName>Shanghai International Circuit</CircuitName>
+            <Location lat="31.3389" long="121.22">
+                <Locality>Shanghai</Locality>
+                <Country>China</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="silverstone" url="http://en.wikipedia.org/wiki/Silverstone_Circuit">
+            <CircuitName>Silverstone Circuit</CircuitName>
+            <Location lat="52.0786" long="-1.01694">
+                <Locality>Silverstone</Locality>
+                <Country>UK</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="sochi" url="http://en.wikipedia.org/wiki/Sochi_Autodrom">
+            <CircuitName>Sochi Autodrom</CircuitName>
+            <Location lat="43.4057" long="39.9578">
+                <Locality>Sochi</Locality>
+                <Country>Russia</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="spa" url="http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps">
+            <CircuitName>Circuit de Spa-Francorchamps</CircuitName>
+            <Location lat="50.4372" long="5.97139">
+                <Locality>Spa</Locality>
+                <Country>Belgium</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="suzuka" url="http://en.wikipedia.org/wiki/Suzuka_Circuit">
+            <CircuitName>Suzuka Circuit</CircuitName>
+            <Location lat="34.8431" long="136.541">
+                <Locality>Suzuka</Locality>
+                <Country>Japan</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="villeneuve" url="http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve">
+            <CircuitName>Circuit Gilles Villeneuve</CircuitName>
+            <Location lat="45.5" long="-73.5228">
+                <Locality>Montreal</Locality>
+                <Country>Canada</Country>
+            </Location>
+        </Circuit>
+        <Circuit circuitId="yas_marina" url="http://en.wikipedia.org/wiki/Yas_Marina_Circuit">
+            <CircuitName>Yas Marina Circuit</CircuitName>
+            <Location lat="24.4672" long="54.6031">
+                <Locality>Abu Dhabi</Locality>
+                <Country>UAE</Country>
+            </Location>
+        </Circuit>
+    </CircuitTable>
+</MRData>
