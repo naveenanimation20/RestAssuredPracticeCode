@@ -75,31 +75,33 @@ public class GETAPIWithQueryParamsAndPathParams {
 	
 	@DataProvider
 	public Object[][] getUserData() {
-		return new Object[][] {
-			{"7381532"},
-//			{"7381533"},
-//			{"7381534"}
-		};
+	    return new Object[][] {
+	        {"7820544", "Eligendi cariosus vomer et decet."},
+	        {"7820543", "Bellicus sapiente theologus soleo ademptio tenetur arcus adultus desino."},
+	        {"7820539", "Vobis absconditus libero qui aequitas."}
+	    };
 	}
+
 	
 	
 	@Test(dataProvider = "getUserData")
-	public void getUserAPI_WithPathParams(String userid) {
-		
-		RestAssured.baseURI = "https://gorest.co.in";
+	public void getUserAPI_WithPathParams(String userid, String expectedTitle) {
+	    
+	    RestAssured.baseURI = "https://gorest.co.in";
 
-		given()
-			.header("Authorization", "Bearer e4b8e1f593dc4a731a153c5ec8cc9b8bbb583ae964ce650a741113091b4e2ac6")
-				.pathParam("userid", userid)
-						.when().log().all()
-								.get("/public/v2/users/{userid}/posts")
-								.then().log().all()
-								.assertThat()
-								.statusCode(200)
-									.and()
-										.body("title", hasItem("Comitatus reiciendis congregatio tandem temeritas certo crebro."));
-		
+	    given()
+	        .header("Authorization", "Bearer e4b8e1f593dc4a731a153c5ec8cc9b8bbb583ae964ce650a741113091b4e2ac6")
+	        .pathParam("userid", userid)
+	    .when()
+	        .log().all()
+	        .get("/public/v2/users/{userid}/posts")
+	    .then()
+	        .log().all()
+	        .assertThat()
+	        .statusCode(200)
+	        .body("title", hasItem(expectedTitle));
 	}
+
 	
 	
 	//equalTo: json object {}
