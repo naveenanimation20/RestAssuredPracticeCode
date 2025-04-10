@@ -1,6 +1,6 @@
 {
     "name": "API Automation", 
-    "email": "api1@automation1.com",
+    "email": "{{email}}",
     "gender": "male",
     "status": "active"
 }

@@ -1,15 +1,18 @@
 package UpdateUser;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class CreateUserTest {
+public class CreateUserTestWithLombok {
 	public String getRandomEmailId() {
 		return "apiautomation"+System.currentTimeMillis()+"@opencart.com";
 	}
@@ -75,6 +78,9 @@ public class CreateUserTest {
 										
 	}
 	
+	
+	
+
 	
 	
 	
