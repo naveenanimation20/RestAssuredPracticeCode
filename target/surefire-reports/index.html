@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">59 methods, 9 failed,   50 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestSpecReuseTest" class="method navigator-link" hash-for-method="getAUserTest">getAUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="POSTAPIWithCreateUser.CreateUserAPITest" class="method navigator-link" hash-for-method="getAuthTokenTest_WithJSONFILE">getAuthTokenTest_WithJSONFILE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FakeUserAPITests.CreateFakeUserTest" class="method navigator-link" hash-for-method="getAuthTokenTest_WithJSONFILE">getAuthTokenTest_WithJSONFILE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="GETAPITestsWithBDD.ContactsAPIsTest" class="method navigator-link" hash-for-method="getContactsAPITest">getContactsAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="getEmailByNameUsingGPath">getEmailByNameUsingGPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="getNameAndEmailByIdUsingGPath">getNameAndEmailByIdUsingGPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="getNameEmailAndIdTypeByIdUsingGPath">getNameEmailAndIdTypeByIdUsingGPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="GETAPITestsWithoutBDD.ProductAPIsTest" class="method navigator-link" hash-for-method="getProductsTest_1">getProductsTest_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestSpecificationTest" class="method navigator-link" hash-for-method="getUserTest">getUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPITests.GORestXMLPathTest" class="method navigator-link" hash-for-method="Xmltest_With_Deserialization">Xmltest_With_Deserialization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.AuthAPIsTest" class="method navigator-link" hash-for-method="basicAuthTest">basicAuthTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestResponseSpecificationTest" class="method navigator-link" hash-for-method="checkGetTest">checkGetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestResponseSpecificationTest" class="method navigator-link" hash-for-method="checkGetWithQueryParamTest">checkGetWithQueryParamTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestResponseSpecificationTest" class="method navigator-link" hash-for-method="checkPOSTTest">checkPOSTTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="circuitApiTest_Xml">circuitApiTest_Xml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BookingAPITests.BookingApiFeatureTests" class="method navigator-link" hash-for-method="createBookingTest">createBookingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FakeUserAPITests.CreateFakeUserTest" class="method navigator-link" hash-for-method="createUserTest_LombokBuilder">createUserTest_LombokBuilder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FakeUserAPITests.CreateFakeUserTest" class="method navigator-link" hash-for-method="createUserTest_LombokPojo">createUserTest_LombokPojo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="DeserializationProcess.UserAPITest" class="method navigator-link" hash-for-method="createUserWith_Lombok">createUserWith_Lombok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BookingAPITests.BookingApiFeatureTests" class="method navigator-link" hash-for-method="deleteBookingTest">deleteBookingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.AuthAPIsTest" class="method navigator-link" hash-for-method="digestiveAuthTest">digestiveAuthTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.OAuth1APITest" class="method navigator-link" hash-for-method="flickAPITest">flickAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.SpotfyAPITest" class="method navigator-link" hash-for-method="getAlbumTest">getAlbumTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="POSTAPIWithCreateUser.CreateUserAPITest" class="method navigator-link" hash-for-method="getAuthTokenTest_UsingStringReplacement">getAuthTokenTest_UsingStringReplacement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="POSTWithAuthAPI.AuthAPITest" class="method navigator-link" hash-for-method="getAuthTokenTest_WithJSON">getAuthTokenTest_WithJSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="POSTWithAuthAPI.AuthAPITest" class="method navigator-link" hash-for-method="getAuthTokenTest_WithJSONFILE">getAuthTokenTest_WithJSONFILE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="POSTAPIWithCreateUser.CreateUserAPITest" class="method navigator-link" hash-for-method="getAuthTokenTest_WithJSONString">getAuthTokenTest_WithJSONString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="POSTWithAuthAPI.AuthAPITest" class="method navigator-link" hash-for-method="getAuthTokenTest_WithPOJOClass">getAuthTokenTest_WithPOJOClass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BookingAPITests.BookingApiFeatureTests" class="method navigator-link" hash-for-method="getBookingIdTest">getBookingIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BookingAPITests.BookingApiFeatureTests" class="method navigator-link" hash-for-method="getBookingIdsTest">getBookingIdsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="GETAPITestsWithBDD.ContactsAPIsTest" class="method navigator-link" hash-for-method="getContactsAPITest_WithInvalidToken">getContactsAPITest_WithInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.OAuth2APITest" class="method navigator-link" hash-for-method="getFlightDetailsTest_1">getFlightDetailsTest_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.OAuth2APITest" class="method navigator-link" hash-for-method="getFlightDetailsTest_2">getFlightDetailsTest_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JaywayJsonPath.JsonPathTest" class="method navigator-link" hash-for-method="getProductAPITest_JsonPath">getProductAPITest_JsonPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JaywayJsonPath.JsonPathMethodsTest" class="method navigator-link" hash-for-method="getProductTest">getProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="DeserializationProcess.ProductAPIWithTest" class="method navigator-link" hash-for-method="getProductsTest_With_POJO_Desierlization">getProductsTest_With_POJO_Desierlization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestSpecReuseTest" class="method navigator-link" hash-for-method="getUserTest">getUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="RequestResponseSpecUsingBuilder.RequestResponseSpecTest" class="method navigator-link" hash-for-method="getUserTest">getUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestSpecificationTest" class="method navigator-link" hash-for-method="getUserTest_With_QueryParam">getUserTest_With_QueryParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="RequestResponseSpecUsingBuilder.RequestSpecBuilderTest" class="method navigator-link" hash-for-method="getUser_WithReq_Spec">getUser_WithReq_Spec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="RequestResponseSpecUsingBuilder.RequestSpecBuilderTest" class="method navigator-link" hash-for-method="getUser_WithReq_Spec_QueryParam">getUser_WithReq_Spec_QueryParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest" class="method navigator-link" hash-for-method="getUsersTest">getUsersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest" class="method navigator-link" hash-for-method="getUsers_WithInvalidToken_Test">getUsers_WithInvalidToken_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestSpecReuseTest" class="method navigator-link" hash-for-method="getWrongUserTest">getWrongUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPITests.GORestXMLPathTest" class="method navigator-link" hash-for-method="gorestAPITest">gorestAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BookingAPITests.BookingApiFeatureTests" class="method navigator-link" hash-for-method="partialBookingTest">partialBookingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="AuthAPIs.AuthAPIsTest" class="method navigator-link" hash-for-method="preemptiveAuthTest">preemptiveAuthTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JaywayJsonPath.JsonPathTest" class="method navigator-link" hash-for-method="productApiTest_ConditionalExamples_WithThreeAttributes">productApiTest_ConditionalExamples_WithThreeAttributes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JaywayJsonPath.JsonPathTest" class="method navigator-link" hash-for-method="productApiTest_ConditionalExamples_WithTwoAttributes">productApiTest_ConditionalExamples_WithTwoAttributes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.ResponseSpecificationTest" class="method navigator-link" hash-for-method="reqSpecTest">reqSpecTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="NewSpecificationConcept.RequestSpecificationTest" class="method navigator-link" hash-for-method="reqSpecTest">reqSpecTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CertificateHandling.SSLCertificateTest" class="method navigator-link" hash-for-method="sslTest">sslTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CertificateHandling.SSLCertificateTest" class="method navigator-link" hash-for-method="sslTest_With_Config">sslTest_With_Config</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="testFetchUserById">testFetchUserById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="testFetchUserIdByName">testFetchUserIdByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BookingAPITests.BookingApiFeatureTests" class="method navigator-link" hash-for-method="updateBookingTest">updateBookingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="xmlPathTest">xmlPathTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="xmlTest">xmlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="XMLAPIs.XMLPathTest" class="method navigator-link" hash-for-method="xmlTest_With_XMLResponse_Desrialization">xmlTest_With_XMLResponse_Desrialization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">NewSpecificationConcept.RequestSpecificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserTest">
+                  </a> <!-- getUserTest -->
+                  <span class="method-name">getUserTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at NewSpecificationConcept.RequestSpecificationTest.getUserTest(RequestSpecificationTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">FakeUserAPITests.CreateFakeUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_WithJSONFILE">
+                  </a> <!-- getAuthTokenTest_WithJSONFILE -->
+                  <span class="method-name">getAuthTokenTest_WithJSONFILE</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at FakeUserAPITests.CreateFakeUserTest.getAuthTokenTest_WithJSONFILE(CreateFakeUserTest.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">GETAPITestsWithoutBDD.ProductAPIsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductsTest_1">
+                  </a> <!-- getProductsTest_1 -->
+                  <span class="method-name">getProductsTest_1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at GETAPITestsWithoutBDD.ProductAPIsTest.getProductsTest_1(ProductAPIsTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">POSTAPIWithCreateUser.CreateUserAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_WithJSONFILE">
+                  </a> <!-- getAuthTokenTest_WithJSONFILE -->
+                  <span class="method-name">getAuthTokenTest_WithJSONFILE</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at POSTAPIWithCreateUser.CreateUserAPITest.getAuthTokenTest_WithJSONFILE(CreateUserAPITest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">GETAPITestsWithBDD.ContactsAPIsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getContactsAPITest">
+                  </a> <!-- getContactsAPITest -->
+                  <span class="method-name">getContactsAPITest</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at GETAPITestsWithBDD.ContactsAPIsTest.getContactsAPITest(ContactsAPIsTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">NewSpecificationConcept.RequestSpecReuseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAUserTest">
+                  </a> <!-- getAUserTest -->
+                  <span class="method-name">getAUserTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at NewSpecificationConcept.RequestSpecReuseTest.getAUserTest(RequestSpecReuseTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">XMLAPIs.XMLPathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getEmailByNameUsingGPath">
+                  </a> <!-- getEmailByNameUsingGPath -->
+                  <span class="method-name">getEmailByNameUsingGPath</span>
+                  <div class="stack-trace">java.lang.AssertionError: Email mismatch expected [chakrika_naik@sanford.test] but found [[]]
+	at XMLAPIs.XMLPathTest.getEmailByNameUsingGPath(XMLPathTest.java:196)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNameAndEmailByIdUsingGPath">
+                  </a> <!-- getNameAndEmailByIdUsingGPath -->
+                  <span class="method-name">getNameAndEmailByIdUsingGPath</span>
+                  <div class="stack-trace">java.lang.AssertionError: Name mismatch expected [Chakrika Naik] but found []
+	at XMLAPIs.XMLPathTest.getNameAndEmailByIdUsingGPath(XMLPathTest.java:215)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNameEmailAndIdTypeByIdUsingGPath">
+                  </a> <!-- getNameEmailAndIdTypeByIdUsingGPath -->
+                  <span class="method-name">getNameEmailAndIdTypeByIdUsingGPath</span>
+                  <div class="stack-trace">java.lang.AssertionError: Name mismatch expected [Chakrika Naik] but found []
+	at XMLAPIs.XMLPathTest.getNameEmailAndIdTypeByIdUsingGPath(XMLPathTest.java:241)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RequestResponseSpecUsingBuilder.RequestSpecBuilderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser_WithReq_Spec">
+                  </a> <!-- getUser_WithReq_Spec -->
+                  <span class="method-name">getUser_WithReq_Spec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser_WithReq_Spec_QueryParam">
+                  </a> <!-- getUser_WithReq_Spec_QueryParam -->
+                  <span class="method-name">getUser_WithReq_Spec_QueryParam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">POSTWithAuthAPI.AuthAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_WithJSON">
+                  </a> <!-- getAuthTokenTest_WithJSON -->
+                  <span class="method-name">getAuthTokenTest_WithJSON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_WithJSONFILE">
+                  </a> <!-- getAuthTokenTest_WithJSONFILE -->
+                  <span class="method-name">getAuthTokenTest_WithJSONFILE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_WithPOJOClass">
+                  </a> <!-- getAuthTokenTest_WithPOJOClass -->
+                  <span class="method-name">getAuthTokenTest_WithPOJOClass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NewSpecificationConcept.RequestResponseSpecificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetTest">
+                  </a> <!-- checkGetTest -->
+                  <span class="method-name">checkGetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetWithQueryParamTest">
+                  </a> <!-- checkGetWithQueryParamTest -->
+                  <span class="method-name">checkGetWithQueryParamTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPOSTTest">
+                  </a> <!-- checkPOSTTest -->
+                  <span class="method-name">checkPOSTTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DeserializationProcess.UserAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserWith_Lombok">
+                  </a> <!-- createUserWith_Lombok -->
+                  <span class="method-name">createUserWith_Lombok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AuthAPIs.AuthAPIsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basicAuthTest">
+                  </a> <!-- basicAuthTest -->
+                  <span class="method-name">basicAuthTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="digestiveAuthTest">
+                  </a> <!-- digestiveAuthTest -->
+                  <span class="method-name">digestiveAuthTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preemptiveAuthTest">
+                  </a> <!-- preemptiveAuthTest -->
+                  <span class="method-name">preemptiveAuthTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FakeUserAPITests.CreateFakeUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTest_LombokBuilder">
+                  </a> <!-- createUserTest_LombokBuilder -->
+                  <span class="method-name">createUserTest_LombokBuilder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTest_LombokPojo">
+                  </a> <!-- createUserTest_LombokPojo -->
+                  <span class="method-name">createUserTest_LombokPojo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CertificateHandling.SSLCertificateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sslTest">
+                  </a> <!-- sslTest -->
+                  <span class="method-name">sslTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sslTest_With_Config">
+                  </a> <!-- sslTest_With_Config -->
+                  <span class="method-name">sslTest_With_Config</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AuthAPIs.OAuth2APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFlightDetailsTest_1">
+                  </a> <!-- getFlightDetailsTest_1 -->
+                  <span class="method-name">getFlightDetailsTest_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFlightDetailsTest_2">
+                  </a> <!-- getFlightDetailsTest_2 -->
+                  <span class="method-name">getFlightDetailsTest_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">XMLAPITests.GORestXMLPathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Xmltest_With_Deserialization">
+                  </a> <!-- Xmltest_With_Deserialization -->
+                  <span class="method-name">Xmltest_With_Deserialization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gorestAPITest">
+                  </a> <!-- gorestAPITest -->
+                  <span class="method-name">gorestAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">XMLAPIs.XMLPathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="circuitApiTest_Xml">
+                  </a> <!-- circuitApiTest_Xml -->
+                  <span class="method-name">circuitApiTest_Xml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFetchUserById">
+                  </a> <!-- testFetchUserById -->
+                  <span class="method-name">testFetchUserById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFetchUserIdByName">
+                  </a> <!-- testFetchUserIdByName -->
+                  <span class="method-name">testFetchUserIdByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xmlPathTest">
+                  </a> <!-- xmlPathTest -->
+                  <span class="method-name">xmlPathTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xmlTest">
+                  </a> <!-- xmlTest -->
+                  <span class="method-name">xmlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xmlTest_With_XMLResponse_Desrialization">
+                  </a> <!-- xmlTest_With_XMLResponse_Desrialization -->
+                  <span class="method-name">xmlTest_With_XMLResponse_Desrialization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JaywayJsonPath.JsonPathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductAPITest_JsonPath">
+                  </a> <!-- getProductAPITest_JsonPath -->
+                  <span class="method-name">getProductAPITest_JsonPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productApiTest_ConditionalExamples_WithThreeAttributes">
+                  </a> <!-- productApiTest_ConditionalExamples_WithThreeAttributes -->
+                  <span class="method-name">productApiTest_ConditionalExamples_WithThreeAttributes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productApiTest_ConditionalExamples_WithTwoAttributes">
+                  </a> <!-- productApiTest_ConditionalExamples_WithTwoAttributes -->
+                  <span class="method-name">productApiTest_ConditionalExamples_WithTwoAttributes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BookingAPITests.BookingApiFeatureTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookingTest">
+                  </a> <!-- createBookingTest -->
+                  <span class="method-name">createBookingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBookingTest">
+                  </a> <!-- deleteBookingTest -->
+                  <span class="method-name">deleteBookingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBookingIdTest">
+                  </a> <!-- getBookingIdTest -->
+                  <span class="method-name">getBookingIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBookingIdsTest">
+                  </a> <!-- getBookingIdsTest -->
+                  <span class="method-name">getBookingIdsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="partialBookingTest">
+                  </a> <!-- partialBookingTest -->
+                  <span class="method-name">partialBookingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBookingTest">
+                  </a> <!-- updateBookingTest -->
+                  <span class="method-name">updateBookingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JaywayJsonPath.JsonPathMethodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductTest">
+                  </a> <!-- getProductTest -->
+                  <span class="method-name">getProductTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AuthAPIs.SpotfyAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAlbumTest">
+                  </a> <!-- getAlbumTest -->
+                  <span class="method-name">getAlbumTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AuthAPIs.OAuth1APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flickAPITest">
+                  </a> <!-- flickAPITest -->
+                  <span class="method-name">flickAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NewSpecificationConcept.RequestSpecificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserTest_With_QueryParam">
+                  </a> <!-- getUserTest_With_QueryParam -->
+                  <span class="method-name">getUserTest_With_QueryParam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reqSpecTest">
+                  </a> <!-- reqSpecTest -->
+                  <span class="method-name">reqSpecTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NewSpecificationConcept.ResponseSpecificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reqSpecTest">
+                  </a> <!-- reqSpecTest -->
+                  <span class="method-name">reqSpecTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RequestResponseSpecUsingBuilder.RequestResponseSpecTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserTest">
+                  </a> <!-- getUserTest -->
+                  <span class="method-name">getUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">POSTAPIWithCreateUser.CreateUserAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_UsingStringReplacement">
+                  </a> <!-- getAuthTokenTest_UsingStringReplacement -->
+                  <span class="method-name">getAuthTokenTest_UsingStringReplacement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAuthTokenTest_WithJSONString">
+                  </a> <!-- getAuthTokenTest_WithJSONString -->
+                  <span class="method-name">getAuthTokenTest_WithJSONString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersTest">
+                  </a> <!-- getUsersTest -->
+                  <span class="method-name">getUsersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers_WithInvalidToken_Test">
+                  </a> <!-- getUsers_WithInvalidToken_Test -->
+                  <span class="method-name">getUsers_WithInvalidToken_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GETAPITestsWithBDD.ContactsAPIsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getContactsAPITest_WithInvalidToken">
+                  </a> <!-- getContactsAPITest_WithInvalidToken -->
+                  <span class="method-name">getContactsAPITest_WithInvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NewSpecificationConcept.RequestSpecReuseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserTest">
+                  </a> <!-- getUserTest -->
+                  <span class="method-name">getUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWrongUserTest">
+                  </a> <!-- getWrongUserTest -->
+                  <span class="method-name">getWrongUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DeserializationProcess.ProductAPIWithTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductsTest_With_POJO_Desierlization">
+                  </a> <!-- getProductsTest_With_POJO_Desierlization -->
+                  <span class="method-name">getProductsTest_With_POJO_Desierlization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GETAPITestsWithBDD.ContactsAPIsTest&quot;/&gt;
+      &lt;class name=&quot;XMLAPIs.XMLPathTest&quot;/&gt;
+      &lt;class name=&quot;BookingAPITests.BookingApiFeatureTests&quot;/&gt;
+      &lt;class name=&quot;NewSpecificationConcept.RequestResponseSpecificationTest&quot;/&gt;
+      &lt;class name=&quot;NewSpecificationConcept.ResponseSpecificationTest&quot;/&gt;
+      &lt;class name=&quot;NewSpecificationConcept.RequestSpecReuseTest&quot;/&gt;
+      &lt;class name=&quot;NewSpecificationConcept.RequestSpecificationTest&quot;/&gt;
+      &lt;class name=&quot;POSTWithAuthAPI.AuthAPITest&quot;/&gt;
+      &lt;class name=&quot;FakeUserAPITests.CreateFakeUserTest&quot;/&gt;
+      &lt;class name=&quot;AuthAPIs.OAuth2APITest&quot;/&gt;
+      &lt;class name=&quot;AuthAPIs.OAuth1APITest&quot;/&gt;
+      &lt;class name=&quot;AuthAPIs.SpotfyAPITest&quot;/&gt;
+      &lt;class name=&quot;AuthAPIs.AuthAPIsTest&quot;/&gt;
+      &lt;class name=&quot;POSTAPIWithCreateUser.CreateUserAPITest&quot;/&gt;
+      &lt;class name=&quot;CertificateHandling.SSLCertificateTest&quot;/&gt;
+      &lt;class name=&quot;DeserializationProcess.ProductAPIWithTest&quot;/&gt;
+      &lt;class name=&quot;DeserializationProcess.UserAPITest&quot;/&gt;
+      &lt;class name=&quot;JaywayJsonPath.JsonPathTest&quot;/&gt;
+      &lt;class name=&quot;JaywayJsonPath.JsonPathMethodsTest&quot;/&gt;
+      &lt;class name=&quot;XMLAPITests.GORestXMLPathTest&quot;/&gt;
+      &lt;class name=&quot;RequestResponseSpecUsingBuilder.RequestSpecBuilderTest&quot;/&gt;
+      &lt;class name=&quot;RequestResponseSpecUsingBuilder.RequestResponseSpecTest&quot;/&gt;
+      &lt;class name=&quot;RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest&quot;/&gt;
+      &lt;class name=&quot;GETAPITestsWithoutBDD.ProductAPIsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (24 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(59);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'partialBookingTest')
+data.setCell(0, 2, 'BookingAPITests.BookingApiFeatureTests')
+data.setCell(0, 3, 4266);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'updateBookingTest')
+data.setCell(1, 2, 'BookingAPITests.BookingApiFeatureTests')
+data.setCell(1, 3, 4078);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteBookingTest')
+data.setCell(2, 2, 'BookingAPITests.BookingApiFeatureTests')
+data.setCell(2, 3, 3944);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getBookingIdTest')
+data.setCell(3, 2, 'BookingAPITests.BookingApiFeatureTests')
+data.setCell(3, 3, 2699);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getContactsAPITest')
+data.setCell(4, 2, 'GETAPITestsWithBDD.ContactsAPIsTest')
+data.setCell(4, 3, 1968);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'basicAuthTest')
+data.setCell(5, 2, 'AuthAPIs.AuthAPIsTest')
+data.setCell(5, 3, 1939);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getFlightDetailsTest_2')
+data.setCell(6, 2, 'AuthAPIs.OAuth2APITest')
+data.setCell(6, 3, 1904);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'circuitApiTest_Xml')
+data.setCell(7, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(7, 3, 1794);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getFlightDetailsTest_1')
+data.setCell(8, 2, 'AuthAPIs.OAuth2APITest')
+data.setCell(8, 3, 1779);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getBookingIdsTest')
+data.setCell(9, 2, 'BookingAPITests.BookingApiFeatureTests')
+data.setCell(9, 3, 1686);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createUserWith_Lombok')
+data.setCell(10, 2, 'DeserializationProcess.UserAPITest')
+data.setCell(10, 3, 1670);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'digestiveAuthTest')
+data.setCell(11, 2, 'AuthAPIs.AuthAPIsTest')
+data.setCell(11, 3, 1600);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getUserTest')
+data.setCell(12, 2, 'NewSpecificationConcept.RequestSpecificationTest')
+data.setCell(12, 3, 1596);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getAuthTokenTest_WithPOJOClass')
+data.setCell(13, 2, 'POSTWithAuthAPI.AuthAPITest')
+data.setCell(13, 3, 1571);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sslTest')
+data.setCell(14, 2, 'CertificateHandling.SSLCertificateTest')
+data.setCell(14, 3, 1535);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'preemptiveAuthTest')
+data.setCell(15, 2, 'AuthAPIs.AuthAPIsTest')
+data.setCell(15, 3, 1496);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getProductsTest_1')
+data.setCell(16, 2, 'GETAPITestsWithoutBDD.ProductAPIsTest')
+data.setCell(16, 3, 1468);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getAuthTokenTest_WithJSON')
+data.setCell(17, 2, 'POSTWithAuthAPI.AuthAPITest')
+data.setCell(17, 3, 1422);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'sslTest_With_Config')
+data.setCell(18, 2, 'CertificateHandling.SSLCertificateTest')
+data.setCell(18, 3, 1368);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createBookingTest')
+data.setCell(19, 2, 'BookingAPITests.BookingApiFeatureTests')
+data.setCell(19, 3, 1366);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getAuthTokenTest_WithJSONFILE')
+data.setCell(20, 2, 'POSTWithAuthAPI.AuthAPITest')
+data.setCell(20, 3, 1337);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getContactsAPITest_WithInvalidToken')
+data.setCell(21, 2, 'GETAPITestsWithBDD.ContactsAPIsTest')
+data.setCell(21, 3, 1128);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getUser_WithReq_Spec')
+data.setCell(22, 2, 'RequestResponseSpecUsingBuilder.RequestSpecBuilderTest')
+data.setCell(22, 3, 1097);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getEmailByNameUsingGPath')
+data.setCell(23, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(23, 3, 1070);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getUserTest_With_QueryParam')
+data.setCell(24, 2, 'NewSpecificationConcept.RequestSpecificationTest')
+data.setCell(24, 3, 1012);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getAuthTokenTest_WithJSONString')
+data.setCell(25, 2, 'POSTAPIWithCreateUser.CreateUserAPITest')
+data.setCell(25, 3, 1008);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getNameAndEmailByIdUsingGPath')
+data.setCell(26, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(26, 3, 999);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getUserTest')
+data.setCell(27, 2, 'NewSpecificationConcept.RequestSpecReuseTest')
+data.setCell(27, 3, 977);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'gorestAPITest')
+data.setCell(28, 2, 'XMLAPITests.GORestXMLPathTest')
+data.setCell(28, 3, 967);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'reqSpecTest')
+data.setCell(29, 2, 'NewSpecificationConcept.RequestSpecificationTest')
+data.setCell(29, 3, 961);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getAuthTokenTest_UsingStringReplacement')
+data.setCell(30, 2, 'POSTAPIWithCreateUser.CreateUserAPITest')
+data.setCell(30, 3, 957);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getAuthTokenTest_WithJSONFILE')
+data.setCell(31, 2, 'FakeUserAPITests.CreateFakeUserTest')
+data.setCell(31, 3, 954);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getNameEmailAndIdTypeByIdUsingGPath')
+data.setCell(32, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(32, 3, 951);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testFetchUserIdByName')
+data.setCell(33, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(33, 3, 943);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'getWrongUserTest')
+data.setCell(34, 2, 'NewSpecificationConcept.RequestSpecReuseTest')
+data.setCell(34, 3, 934);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'getUser_WithReq_Spec_QueryParam')
+data.setCell(35, 2, 'RequestResponseSpecUsingBuilder.RequestSpecBuilderTest')
+data.setCell(35, 3, 924);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'createUserTest_LombokPojo')
+data.setCell(36, 2, 'FakeUserAPITests.CreateFakeUserTest')
+data.setCell(36, 3, 891);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkGetWithQueryParamTest')
+data.setCell(37, 2, 'NewSpecificationConcept.RequestResponseSpecificationTest')
+data.setCell(37, 3, 745);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'getUsersTest')
+data.setCell(38, 2, 'RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest')
+data.setCell(38, 3, 700);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkPOSTTest')
+data.setCell(39, 2, 'NewSpecificationConcept.RequestResponseSpecificationTest')
+data.setCell(39, 3, 694);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testFetchUserById')
+data.setCell(40, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(40, 3, 680);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'getUserTest')
+data.setCell(41, 2, 'RequestResponseSpecUsingBuilder.RequestResponseSpecTest')
+data.setCell(41, 3, 659);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'xmlTest_With_XMLResponse_Desrialization')
+data.setCell(42, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(42, 3, 641);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'getAUserTest')
+data.setCell(43, 2, 'NewSpecificationConcept.RequestSpecReuseTest')
+data.setCell(43, 3, 617);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Xmltest_With_Deserialization')
+data.setCell(44, 2, 'XMLAPITests.GORestXMLPathTest')
+data.setCell(44, 3, 615);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'getAuthTokenTest_WithJSONFILE')
+data.setCell(45, 2, 'POSTAPIWithCreateUser.CreateUserAPITest')
+data.setCell(45, 3, 596);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'getUsers_WithInvalidToken_Test')
+data.setCell(46, 2, 'RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest')
+data.setCell(46, 3, 593);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'createUserTest_LombokBuilder')
+data.setCell(47, 2, 'FakeUserAPITests.CreateFakeUserTest')
+data.setCell(47, 3, 562);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'getProductAPITest_JsonPath')
+data.setCell(48, 2, 'JaywayJsonPath.JsonPathTest')
+data.setCell(48, 3, 528);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'flickAPITest')
+data.setCell(49, 2, 'AuthAPIs.OAuth1APITest')
+data.setCell(49, 3, 527);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'getProductsTest_With_POJO_Desierlization')
+data.setCell(50, 2, 'DeserializationProcess.ProductAPIWithTest')
+data.setCell(50, 3, 486);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'checkGetTest')
+data.setCell(51, 2, 'NewSpecificationConcept.RequestResponseSpecificationTest')
+data.setCell(51, 3, 467);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'getProductTest')
+data.setCell(52, 2, 'JaywayJsonPath.JsonPathMethodsTest')
+data.setCell(52, 3, 446);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'productApiTest_ConditionalExamples_WithThreeAttributes')
+data.setCell(53, 2, 'JaywayJsonPath.JsonPathTest')
+data.setCell(53, 3, 443);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'productApiTest_ConditionalExamples_WithTwoAttributes')
+data.setCell(54, 2, 'JaywayJsonPath.JsonPathTest')
+data.setCell(54, 3, 425);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'reqSpecTest')
+data.setCell(55, 2, 'NewSpecificationConcept.ResponseSpecificationTest')
+data.setCell(55, 3, 402);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'xmlPathTest')
+data.setCell(56, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(56, 3, 348);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'getAlbumTest')
+data.setCell(57, 2, 'AuthAPIs.SpotfyAPITest')
+data.setCell(57, 3, 232);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'xmlTest')
+data.setCell(58, 2, 'XMLAPIs.XMLPathTest')
+data.setCell(58, 3, 33);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewSpecificationConcept.RequestResponseSpecificationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewSpecificationConcept.RequestSpecReuseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">595 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GETAPITestsWithBDD.ContactsAPIsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getContactsAPITest</span>
+                <span class="method-start">616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getContactsAPITest_WithInvalidToken</span>
+                <span class="method-start">2589 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">XMLAPIs.XMLPathTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">circuitApiTest_Xml</span>
+                <span class="method-start">3719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getEmailByNameUsingGPath</span>
+                <span class="method-start">5513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getNameAndEmailByIdUsingGPath</span>
+                <span class="method-start">6586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getNameEmailAndIdTypeByIdUsingGPath</span>
+                <span class="method-start">7586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFetchUserById</span>
+                <span class="method-start">8537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFetchUserIdByName</span>
+                <span class="method-start">9217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xmlPathTest</span>
+                <span class="method-start">10160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xmlTest</span>
+                <span class="method-start">10509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xmlTest_With_XMLResponse_Desrialization</span>
+                <span class="method-start">10542 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BookingAPITests.BookingApiFeatureTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">11184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createBookingTest</span>
+                <span class="method-start">12848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">14214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteBookingTest</span>
+                <span class="method-start">15648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">19593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBookingIdTest</span>
+                <span class="method-start">21047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">23746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBookingIdsTest</span>
+                <span class="method-start">25117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">26804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">partialBookingTest</span>
+                <span class="method-start">28455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">32721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateBookingTest</span>
+                <span class="method-start">34074 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewSpecificationConcept.RequestResponseSpecificationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetTest</span>
+                <span class="method-start">38153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkGetWithQueryParamTest</span>
+                <span class="method-start">38620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPOSTTest</span>
+                <span class="method-start">39366 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewSpecificationConcept.ResponseSpecificationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">reqSpecTest</span>
+                <span class="method-start">40060 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewSpecificationConcept.RequestSpecReuseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getAUserTest</span>
+                <span class="method-start">40463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserTest</span>
+                <span class="method-start">41081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getWrongUserTest</span>
+                <span class="method-start">42058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewSpecificationConcept.RequestSpecificationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getUserTest</span>
+                <span class="method-start">42992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserTest_With_QueryParam</span>
+                <span class="method-start">44589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reqSpecTest</span>
+                <span class="method-start">45601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">POSTWithAuthAPI.AuthAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAuthTokenTest_WithJSON</span>
+                <span class="method-start">46563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAuthTokenTest_WithJSONFILE</span>
+                <span class="method-start">47986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAuthTokenTest_WithPOJOClass</span>
+                <span class="method-start">49323 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FakeUserAPITests.CreateFakeUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUserTest_LombokBuilder</span>
+                <span class="method-start">50895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserTest_LombokPojo</span>
+                <span class="method-start">51458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getAuthTokenTest_WithJSONFILE</span>
+                <span class="method-start">52350 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthAPIs.OAuth2APITest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getAccessToken</span>
+                <span class="method-start">53305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getFlightDetailsTest_1</span>
+                <span class="method-start">54629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getAccessToken</span>
+                <span class="method-start">56409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getFlightDetailsTest_2</span>
+                <span class="method-start">57261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthAPIs.OAuth1APITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">flickAPITest</span>
+                <span class="method-start">59165 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthAPIs.SpotfyAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getAccessToken</span>
+                <span class="method-start">59692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAlbumTest</span>
+                <span class="method-start">59881 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthAPIs.AuthAPIsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">basicAuthTest</span>
+                <span class="method-start">60113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">digestiveAuthTest</span>
+                <span class="method-start">62053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preemptiveAuthTest</span>
+                <span class="method-start">63653 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">POSTAPIWithCreateUser.CreateUserAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAuthTokenTest_UsingStringReplacement</span>
+                <span class="method-start">65149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getAuthTokenTest_WithJSONFILE</span>
+                <span class="method-start">66106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAuthTokenTest_WithJSONString</span>
+                <span class="method-start">66703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CertificateHandling.SSLCertificateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sslTest</span>
+                <span class="method-start">67712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sslTest_With_Config</span>
+                <span class="method-start">69249 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DeserializationProcess.ProductAPIWithTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getProductsTest_With_POJO_Desierlization</span>
+                <span class="method-start">70618 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DeserializationProcess.UserAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUserWith_Lombok</span>
+                <span class="method-start">71104 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JaywayJsonPath.JsonPathTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getProductAPITest_JsonPath</span>
+                <span class="method-start">72775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productApiTest_ConditionalExamples_WithThreeAttributes</span>
+                <span class="method-start">73303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productApiTest_ConditionalExamples_WithTwoAttributes</span>
+                <span class="method-start">73746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JaywayJsonPath.JsonPathMethodsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getProductTest</span>
+                <span class="method-start">74172 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">XMLAPITests.GORestXMLPathTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Xmltest_With_Deserialization</span>
+                <span class="method-start">74618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">gorestAPITest</span>
+                <span class="method-start">75234 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequestResponseSpecUsingBuilder.RequestSpecBuilderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getUser_WithReq_Spec</span>
+                <span class="method-start">76202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUser_WithReq_Spec_QueryParam</span>
+                <span class="method-start">77299 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequestResponseSpecUsingBuilder.RequestResponseSpecTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getAccessToken</span>
+                <span class="method-start">78223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUserTest</span>
+                <span class="method-start">79130 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequestResponseSpecUsingBuilder.ResponseSpecBuilderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getUsersTest</span>
+                <span class="method-start">79789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsers_WithInvalidToken_Test</span>
+                <span class="method-start">80490 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GETAPITestsWithoutBDD.ProductAPIsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProductsTest_1</span>
+                <span class="method-start">81083 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
