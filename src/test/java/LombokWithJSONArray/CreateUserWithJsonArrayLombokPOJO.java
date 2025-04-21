@@ -41,9 +41,9 @@ public class CreateUserWithJsonArrayLombokPOJO {
 		given().log().all()
 			.contentType(ContentType.JSON)
 				.body(user)
-					.when().log().all()
+					.when()
 						.post("/post")
-							.then()
+							.then().log().all()
 								.assertThat()
 									.statusCode(200);
 	}

@@ -108,12 +108,6 @@ public class CreateFakeUserTest {
 		
 		System.out.println("user id : " + userId);
 		Assert.assertNotNull(userId);
-		
-		        int a = 10;
-		        System.out.println(a += (a = 5) * (a / 5));
-		    
-	
-	
-
+		     
 }
 }
