@@ -38,6 +38,20 @@ public class JsonPathTest {
 
 		List<Integer> counts = ctx.read("$[?(@.price > 50)].rating.count");
 		System.out.println(counts);
+		
+		//using contains:
+		List<Integer> singleId = JsonPath.read(jsonResponse, "$[?(@.title =~ /.*Backpack.*/i)].id");
+		System.out.println(singleId);
+		
+		//using startswith:
+		List<Integer> startsWith = JsonPath.read(jsonResponse, "$[?(@.title =~ /^Fjallraven.*/i)].id");
+		System.out.println("Starts with Fjallraven: " + startsWith);
+
+		//using endswith:
+		List<Integer> endsWith = JsonPath.read(jsonResponse, "$[?(@.title =~ /.*Laptops$/i)].id");
+		System.out.println("Ends with Laptops: " + endsWith);
+
+
 
 		for (int i = 0; i < ids.size(); i++) {
 			System.out.println(ids.get(i) + " " + prices.get(i));
@@ -45,6 +59,7 @@ public class JsonPathTest {
 
 		
 		// $[?(@.rating.rate < 3)].id
+		// $[?(@.rating.rate == 3.9)].id
 		
 		
 	}
@@ -98,7 +113,7 @@ public class JsonPathTest {
 		//single attribute:
 		//$[?(@.rating.rate < 3)].id
 		
-		//with two attributes:
+		//with three attributes:
 		List<Map<String, Object>> jewleryList = ctx.read("$[?(@.category == 'jewelery')].['title','price','id']");
 		System.out.println(jewleryList);
 		System.out.println(jewleryList.size());
@@ -138,6 +153,8 @@ public class JsonPathTest {
 	
 	//single attribute: List<?>
 	//multiple attributes: List<Map<String, Object>>
+	
+	
 
 	
 

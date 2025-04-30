@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T18:01:00 IST" name="Default suite" finished-at="2025-04-28T18:01:02 IST" duration-ms="1916">
+  <suite started-at="2025-04-30T19:19:51 IST" name="Default suite" finished-at="2025-04-30T19:19:53 IST" duration-ms="2137">
     <groups>
     </groups>
-    <test started-at="2025-04-28T18:01:00 IST" name="Default test" finished-at="2025-04-28T18:01:02 IST" duration-ms="1916">
-      <class name="NewSpecificationConcept.ResponseSpecificationTest">
-        <test-method signature="reqSpecTest()[pri:0, instance:NewSpecificationConcept.ResponseSpecificationTest@2898ac89]" started-at="2025-04-28T18:01:00 IST" name="reqSpecTest" finished-at="2025-04-28T18:01:02 IST" duration-ms="1890" status="PASS">
+    <test started-at="2025-04-30T19:19:51 IST" name="Default test" finished-at="2025-04-30T19:19:53 IST" duration-ms="2137">
+      <class name="AuthAPIs.SpotfyAPITest">
+        <test-method is-config="true" signature="getAccessToken()[pri:0, instance:AuthAPIs.SpotfyAPITest@7c1e2a9e]" started-at="2025-04-30T19:19:51 IST" name="getAccessToken" finished-at="2025-04-30T19:19:53 IST" duration-ms="1770" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reqSpecTest -->
-      </class> <!-- NewSpecificationConcept.ResponseSpecificationTest -->
+        </test-method> <!-- getAccessToken -->
+        <test-method signature="getAlbumTest()[pri:0, instance:AuthAPIs.SpotfyAPITest@7c1e2a9e]" started-at="2025-04-30T19:19:53 IST" name="getAlbumTest" finished-at="2025-04-30T19:19:53 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlbumTest -->
+      </class> <!-- AuthAPIs.SpotfyAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

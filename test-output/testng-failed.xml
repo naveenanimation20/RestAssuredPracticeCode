@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NewSpecificationConcept.RequestSpecificationTest">
+      <class name="AuthAPIs.OAuth2APITest">
         <methods>
-          <include name="getUserTest"/>
+          <include name="getFlightDetailsTest_1"/>
+          <include name="getAccessToken"/>
         </methods>
-      </class> <!-- NewSpecificationConcept.RequestSpecificationTest -->
+      </class> <!-- AuthAPIs.OAuth2APITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,8 +1,14 @@
 package AuthAPIs;
 
+import java.util.List;
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.jsonpath.ReadContext;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -41,11 +47,56 @@ private String accessToken;
 			
 		Assert.assertEquals(response.getStatusCode(), 200);
 		response.prettyPrint();
+		ReadContext ctx = JsonPath.parse(response.asString());
+		
+		//get all the tracks:
+		List<String> tracks = ctx.read("$.tracks.items[*].artists[*].name");
+		System.out.println(tracks);
+
+
+		System.out.println("----------");
+		
+		//with two attributes:
+		List<Map<String, Object>> jewleryList = ctx.read("$.images.[?(@.height == 300)].['url','width']");
+		System.out.println(jewleryList);
+		System.out.println(jewleryList.size());
+		
+		for(Map<String, Object> product : jewleryList) {
+			String url = (String) product.get("url");
+			Number width = (Number) product.get("width");
+			System.out.println("url:" + url);
+			System.out.println("width:" + width);
+			System.out.println("-----------");
+		}
+
 
 	}	
 	
+//spotify jsonpath :
+//	$.images.[?(@.height == 300)].['url','width']
+//
+//			$.images.[?(@.height == 300)].url
+//
+//			$.images[*]
+//
+//			$.images[*].url
+//
+//			$.images
+//
+//			$.id
+//
+//			$.external_urls
+//
+//			$.available_markets
+//
+//			$.tracks.href
+//
+//			$.tracks.items[*].artists[*].name
+//
+//			$.tracks.items[*].name
+
 	
-//+ve/-ve
+	
 	
 
 }
