@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="7" total="8" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T19:19:51 IST" name="Default suite" finished-at="2025-04-30T19:19:53 IST" duration-ms="2137">
+  <suite started-at="2025-05-05T14:14:06 IST" name="Default suite" finished-at="2025-05-05T14:14:08 IST" duration-ms="2403">
     <groups>
     </groups>
-    <test started-at="2025-04-30T19:19:51 IST" name="Default test" finished-at="2025-04-30T19:19:53 IST" duration-ms="2137">
-      <class name="AuthAPIs.SpotfyAPITest">
-        <test-method is-config="true" signature="getAccessToken()[pri:0, instance:AuthAPIs.SpotfyAPITest@7c1e2a9e]" started-at="2025-04-30T19:19:51 IST" name="getAccessToken" finished-at="2025-04-30T19:19:53 IST" duration-ms="1770" status="PASS">
+    <test started-at="2025-05-05T14:14:06 IST" name="Default test" finished-at="2025-05-05T14:14:08 IST" duration-ms="2403">
+      <class name="XMLAPIs.XMLPathTest">
+        <test-method signature="getNameAndEmailByIdUsingGPath()[pri:0, instance:XMLAPIs.XMLPathTest@2118cddf]" started-at="2025-05-05T14:14:06 IST" name="getNameAndEmailByIdUsingGPath" finished-at="2025-05-05T14:14:08 IST" duration-ms="2379" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Name mismatch expected [Chakrika Naik] but found [Madhuri Mukhopadhyay]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Name mismatch expected [Chakrika Naik] but found [Madhuri Mukhopadhyay]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at XMLAPIs.XMLPathTest.getNameAndEmailByIdUsingGPath(XMLPathTest.java:185)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAccessToken -->
-        <test-method signature="getAlbumTest()[pri:0, instance:AuthAPIs.SpotfyAPITest@7c1e2a9e]" started-at="2025-04-30T19:19:53 IST" name="getAlbumTest" finished-at="2025-04-30T19:19:53 IST" duration-ms="339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAlbumTest -->
-      </class> <!-- AuthAPIs.SpotfyAPITest -->
+        </test-method> <!-- getNameAndEmailByIdUsingGPath -->
+      </class> <!-- XMLAPIs.XMLPathTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

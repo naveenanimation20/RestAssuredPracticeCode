@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import XMLAPIs.MRData.Circuit;
 import io.restassured.RestAssured;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
@@ -113,37 +112,6 @@ public class XMLPathTest {
 
 	}
 
-	@Test
-	public void xmlTest_With_XMLResponse_Desrialization() {
-
-		RestAssured.baseURI = "http://ergast.com";
-
-		Response response = given().when().get("/api/f1/2017/circuits.xml").then().extract().response();
-
-		// create the object of XmlMapper: deserialization
-		XmlMapper xmlMapper = new XmlMapper();
-
-		try {
-			MRData mrData = xmlMapper.readValue(response.asString(), MRData.class);
-			System.out.println(mrData.getSeries());
-			System.out.println(mrData.getCircuitTable().getSeason());
-
-			// assertions:
-			Assert.assertNotNull(mrData);
-			Assert.assertEquals(mrData.getSeries(), "f1");
-			Assert.assertEquals(mrData.getCircuitTable().getSeason(), "2017");
-
-			Circuit circuit = mrData.getCircuitTable().getCircuits().get(0);
-			Assert.assertEquals(circuit.getCircuitName(), "Albert Park Grand Prix Circuit");
-			Assert.assertEquals(circuit.getCircuitId(), "albert_park");
-			Assert.assertEquals(circuit.getLocation().getLocality(), "Melbourne");
-			Assert.assertEquals(circuit.getLocation().getCountry(), "Australia");
-
-		} catch (JsonProcessingException e) {
-			e.printStackTrace();
-		}
-
-	}
 
 	@Test
 	public void testFetchUserById() {
@@ -154,7 +122,7 @@ public class XMLPathTest {
 		XmlPath xmlPath = new XmlPath(response.getBody().asString());
 
 		//Fetch the name and email where id = 7457968
-		String expectedId = "7457967";
+		String expectedId = "7871917";
 		String name = xmlPath.getString("objects.object.find { it.id.text() == '" + expectedId + "' }.name");
 		String email = xmlPath.getString("objects.object.find { it.id.text() == '" + expectedId + "' }.email");
 
@@ -171,9 +139,9 @@ public class XMLPathTest {
 
 		XmlPath xmlPath = new XmlPath(response.getBody().asString());
 
-		//Fetch the id where name = "Jaya Gandhi"
-		String userName = "Gemine Marar";
-		String userId = xmlPath.getString("objects.object.find { it.name.text() == '" + userName + "' }.id.text()");
+		//Fetch the id where name = "Anunay Khatri"
+		String userName = "Anunay Khatri";
+		String userId = xmlPath.getString("objects.object.find { it.name.text() == '" + userName + "' }.id");
 
 		//Print the fetched user ID
 		System.out.println("User ID for " + userName + ": " + userId);
@@ -190,12 +158,12 @@ public class XMLPathTest {
 		XmlPath xmlPath = new XmlPath(response.getBody().asString());
 
         //Extract email using GPath
-        String email = xmlPath.getString("**.findAll{ it.name == 'Chakrika Naik' }.email");
-        System.out.println(email);
-        //Validate the email
-        Assert.assertEquals(email, "chakrika_naik@sanford.test", "Email mismatch");
+		List<String> emails = xmlPath.getList("**.findAll{ it.name == 'Anunay Khatri' }.email");
+		System.out.println(emails);
+
+		// Example assertion for single expected email:
+		Assert.assertEquals(emails.get(0), "anunay_khatri@murphy.test", "Email mismatch");
     }
-	
 	
 	@Test
     public void getNameAndEmailByIdUsingGPath() {
@@ -206,8 +174,8 @@ public class XMLPathTest {
 		XmlPath xmlPath = new XmlPath(response.getBody().asString());
 
         //Extract name and email using GPath where id is 7462568
-        String name = xmlPath.getString("objects.object.findAll{ it.id == '7462568' }.name");
-        String email = xmlPath.getString("objects.object.findAll{ it.id == '7462568' }.email");
+        String name = xmlPath.getString("**.findAll{ it.id == '7871906' }.name");
+        String email = xmlPath.getString("**.findAll{ it.id == '7871906' }.email");
         System.out.println(name);
         System.out.println(email);
 

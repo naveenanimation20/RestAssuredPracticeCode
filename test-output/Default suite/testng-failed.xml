@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AuthAPIs.OAuth2APITest">
+      <class name="XMLAPIs.XMLPathTest">
         <methods>
-          <include name="getFlightDetailsTest_1"/>
-          <include name="getAccessToken"/>
+          <include name="getNameAndEmailByIdUsingGPath"/>
         </methods>
-      </class> <!-- AuthAPIs.OAuth2APITest -->
+      </class> <!-- XMLAPIs.XMLPathTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
