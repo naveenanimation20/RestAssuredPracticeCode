@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="XMLAPIs.XMLPathTest">
+      <class name="schemavalidation.SchemaValidationTest">
         <methods>
-          <include name="getNameAndEmailByIdUsingGPath"/>
+          <include name="addUserSchemaTest"/>
         </methods>
-      </class> <!-- XMLAPIs.XMLPathTest -->
+      </class> <!-- schemavalidation.SchemaValidationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
